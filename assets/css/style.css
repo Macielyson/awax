@@ -66,6 +66,18 @@ header {
     border-bottom: 5px solid #b28756;
     color: #ccc;
 }
+.button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
 
 .banner {
     background-color: #333;
@@ -108,18 +120,7 @@ header {
     text-transform: uppercase;
     margin-top: 20px;
 }
-.banner a {
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 10px 30px;
-    margin-top: 30px;
-    border-radius: 15px;
-}
+
 .banner .sliders-pointers {
     width: 100vw;
     height: 20px;
@@ -141,4 +142,121 @@ header {
 }
 .banner .pointer.active {
     background-color: #b28756;
+}
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title {
+    font-size: 20px;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.default .section-body {
+    margin: auto;
+    max-width: 1140px;
+}
+
+.default.light {
+    background-color: #fff;
+}
+
+.default.light .section-title,
+.default.light .section-body {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+    color: #fff;
+}
+
+
+/*
+* CSS DE AREAS DE INTERFACE
+*/
+
+
+
+
+
+
+
+
+/*
+* CSS DE AREAS ESPECIFICAS - ABOUT US
+*/
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus--left {
+    display: 1;
+    margin-right: 20px;
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+
+}
+
+.section-aboutus--right img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+
+}
+
+/*
+* CSS DE AREAS ESPECIFICAS - SERVICES
+*/
+
+.section-services {
+    display: flex;
+
+}
+
+.section-service {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333;
+    padding: 15px;
+}
+.section-service:first-child {
+    border-left: 1px solid #333;
+}
+.section-service h4 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-service p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
 }
