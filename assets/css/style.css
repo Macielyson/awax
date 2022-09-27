@@ -519,20 +519,60 @@ header {
 
 .cinza {
     background-color: rgb(224, 221, 221);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.section-prices {
-    display: flex;
-}
 .section-price {
+    display: flex;  
+}
+.section-price--area { 
+    
     flex: 1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: #fff;
-    border: #000 solid 1px;
     text-align: center;
     padding: 15px;
 }
+
+.section-price .nome {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.section-price .price {
+    font-weight: 600;
+    font-size: 30px;
+}
+.section-price .month {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.section-price ul,
+.section-price li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.section-price .traco {
+    height: 1px;
+    width: 25px;
+    background-color: #000;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.section-price--area button {
+    background-color: #000;
+}
+.section-price--area button:hover,
+.section-price--area .action {
+    background-color:#b28756;
+}
+
+
 
 
 

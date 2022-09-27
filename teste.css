@@ -1,0 +1,45 @@
+
+html {
+    background-color: green;    
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    box-sizing: border-box;
+}
+
+.a {
+    background-color: black;
+    height: 300px;
+    width: 800px;
+    margin: auto;
+
+}
+.b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 800px;
+}
+.c {
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    height: 250px;
+    width: 700px;
+    overflow-y: hidden;
+}
+
+.d {
+    background-color:black;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    color: bisque;
+    padding: 5px;
+}
+
