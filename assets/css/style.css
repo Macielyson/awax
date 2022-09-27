@@ -563,6 +563,9 @@ header {
     margin: auto;
     margin-bottom: 10px;
 }
+.section-price .traco:last-child {
+    background-color: #fff;
+}
 
 .section-price--area button {
     background-color: #000;
