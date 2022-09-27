@@ -172,6 +172,7 @@ header {
     color: #ccc;
     margin-top: 10px;
     margin-bottom: 40px;
+    
 }
 
 .default .section-body {
@@ -244,7 +245,6 @@ header {
 
 .section-services {
     display: flex;
-
 }
 
 .section-service {
@@ -277,6 +277,7 @@ header {
 
 
 .section-projects {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -284,6 +285,7 @@ header {
 }
 
 .section-projects--filters {
+   
     border: 1px solid #999;
     background-color: #eee;
     border-radius: 30px;
@@ -382,6 +384,7 @@ header {
 /* Area do Our team*/
 
 .section-team {
+    
     overflow: hidden;
     /*largura da area dos tres slider*/
     max-width: 880px;
@@ -472,3 +475,65 @@ header {
 .section-team--social a:hover {
     background-color: #b28756;
 }
+
+
+/*secao do cliente*/
+
+
+.section-client {
+    
+    overflow: hidden;
+    /* overflow: hidden; largura da area dos tres slider*/
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-client .section-clients {
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-client .slide {
+    width: 880px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.section-client .areaslide {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 30px;
+}
+
+
+/*nao teminiei o do cliente*/
+
+/*area especifica do price*/
+
+.cinza {
+    background-color: rgb(224, 221, 221);
+}
+
+.section-prices {
+    display: flex;
+}
+.section-price {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
