@@ -172,7 +172,7 @@ header {
     color: #ccc;
     margin-top: 10px;
     margin-bottom: 40px;
-    
+
 }
 
 .default .section-body {
@@ -277,7 +277,7 @@ header {
 
 
 .section-projects {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -285,7 +285,7 @@ header {
 }
 
 .section-projects--filters {
-   
+
     border: 1px solid #999;
     background-color: #eee;
     border-radius: 30px;
@@ -384,7 +384,7 @@ header {
 /* Area do Our team*/
 
 .section-team {
-    
+
     overflow: hidden;
     /*largura da area dos tres slider*/
     max-width: 880px;
@@ -481,7 +481,7 @@ header {
 
 
 .section-client {
-    
+
     overflow: hidden;
     /* overflow: hidden; largura da area dos tres slider*/
     max-width: 880px;
@@ -517,17 +517,16 @@ header {
 
 /*area especifica do price*/
 
-.cinza {
+.default.light.cinza {
     background-color: rgb(224, 221, 221);
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .section-price {
-    display: flex;  
+    display: flex;
 }
-.section-price--area { 
-    
+
+.section-price--area {
+
     flex: 1;
     margin-right: 20px;
     margin-left: 20px;
@@ -546,6 +545,7 @@ header {
     font-weight: 600;
     font-size: 30px;
 }
+
 .section-price .month {
     color: #999;
     margin-bottom: 10px;
@@ -556,6 +556,7 @@ header {
     list-style: none;
     margin-bottom: 5px;
 }
+
 .section-price .traco {
     height: 1px;
     width: 25px;
@@ -563,6 +564,7 @@ header {
     margin: auto;
     margin-bottom: 10px;
 }
+
 .section-price .traco:last-child {
     background-color: #fff;
 }
@@ -570,13 +572,56 @@ header {
 .section-price--area button {
     background-color: #000;
 }
+
 .section-price--area button:hover,
 .section-price--area .action {
-    background-color:#b28756;
+    background-color: #b28756;
 }
 
+/*area especifica de premium*/
+.section-premium {
+    max-width: 880px;
+    margin: auto;
+}
 
+.section-premium {
+    padding-bottom: 50px;
+    border-bottom: #ccc solid 2px;
+}
 
+.section-premium--left {
+    padding-right: 50px;
+}
 
+.section-premium,
+.section-premium--right .conteudo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.section-premium--right .check {
+    margin-right: 30px;
+}
 
+.section-premium--area .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-premium--area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.section-premium--area .pointer.active {
+    background-color: #b28756;
+}
